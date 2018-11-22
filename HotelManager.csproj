@@ -85,6 +85,7 @@
     <Compile Include="DTO\Parameter.cs" />
     <Compile Include="DTO\ReceiveRoom.cs" />
     <Compile Include="DTO\ReceiveRoomDetails.cs" />
+    <Compile Include="DTO\ReceiveRoomInfo.cs" />
     <Compile Include="DTO\Room.cs" />
     <Compile Include="DTO\RoomType.cs" />
     <Compile Include="DTO\AccountType.cs" />

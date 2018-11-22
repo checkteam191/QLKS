@@ -187,8 +187,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="hotel.ico" />
-    <Content Include="Procs.sql" />
-    <Content Include="Tables.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

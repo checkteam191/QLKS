@@ -325,7 +325,7 @@
             this.btnInsertStaffType.Size = new System.Drawing.Size(175, 40);
             this.btnInsertStaffType.TabIndex = 54;
             this.btnInsertStaffType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnInsertStaffType.Click += new System.EventHandler(this.btnInsertStaffType_Click);
+            //this.btnInsertStaffType.Click += new System.EventHandler(this.btnInsertStaffType_Click);
             // 
             // btnUpdate
             // 
@@ -351,7 +351,7 @@
             this.btnUpdate.Size = new System.Drawing.Size(175, 40);
             this.btnUpdate.TabIndex = 52;
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            //this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // cbbStaffType
             // 

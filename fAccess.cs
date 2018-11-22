@@ -94,19 +94,19 @@ namespace HotelManager
             }
             LoadFullStaffType();
         }
-        private void btnUpdate_Click(object sender, EventArgs e)
-        {
-            int index = cbbStaffType.SelectedIndex;
-            new fAddStaffType(idStaffType, cbbStaffType.Text).ShowDialog();
-            LoadFullStaffType();
-            cbbStaffType.SelectedIndex = index;
-        }
-        private void btnInsertStaffType_Click(object sender, EventArgs e)
-        {
-            new fAddStaffType().ShowDialog();
-            LoadFullStaffType();
-            cbbStaffType.SelectedIndex = (cbbStaffType.DataSource as DataTable).Rows.Count - 1;
-        }
+        //private void btnUpdate_Click(object sender, EventArgs e)
+        //{
+        //    int index = cbbStaffType.SelectedIndex;
+        //    new fAddStaffType(idStaffType, cbbStaffType.Text).ShowDialog();
+        //    LoadFullStaffType();
+        //    cbbStaffType.SelectedIndex = index;
+        //}
+        //private void btnInsertStaffType_Click(object sender, EventArgs e)
+        //{
+        //    new fAddStaffType().ShowDialog();
+        //    LoadFullStaffType();
+        //    cbbStaffType.SelectedIndex = (cbbStaffType.DataSource as DataTable).Rows.Count - 1;
+        //}
         #endregion
 
         #region Get Data
